@@ -1,9 +1,11 @@
 img {
     width: 100%;
     max-width: 100px;
+    outline: none;
 }
 
 
-.kana:hover, .kana:focus, .selected{
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+img:hover, .kana-selected{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(80%);
+    outline: none;
 }
