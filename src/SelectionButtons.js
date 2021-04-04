@@ -5,13 +5,13 @@ function SelectionButtons(props){
 
 
     return(
-        <div className="SelectionButtons">
+        <div className='button-container'>
             <Link to='/hiragana'>
-                <button onClick={() => props.setKana('hiragana')}>Hiragana</button>
+                <button className='kana-button' onClick={() => props.setKana('hiragana')}>Hiragana</button>
             </Link>
 
             <Link to='/katakana'>
-                <button onClick={() => props.setKana('katakana')}>Katakana</button>
+                <button className='kana-button' onClick={() => props.setKana('katakana')}>Katakana</button>
             </Link>
       </div>
     )

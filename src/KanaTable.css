@@ -15,3 +15,7 @@ tbody{
 .active{
     background-color: rgb(192, 135, 135);
 }
+
+.back-button{
+    margin-left: 0;
+}

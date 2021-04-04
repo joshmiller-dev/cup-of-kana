@@ -6,6 +6,18 @@
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 } */
 
+
 .review-image:focus{
     outline: solid grey;
 }
+
+.kana-display-review{
+    width: 200%;
+    max-width: 250px;
+    outline: none;    
+    font-family: 'Meiryo', "Hiragino Kaku Gothic ProN", "MS PGothic", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: auto auto;
+}
+

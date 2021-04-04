@@ -1,4 +1,4 @@
-img {
+/* img {
     width: 100%;
     max-width: 100px;
     outline: none;
@@ -7,5 +7,26 @@ img {
 
 img:hover, .kana-selected{
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(80%);
+    outline: none;
+} */
+
+
+
+.kana-display{
+    width: 100%;
+    max-width: 150px;
+    outline: none;    
+    font-family: 'Meiryo', "Hiragino Kaku Gothic ProN", "MS PGothic", "Roboto", sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: auto auto;
+    border: none;
+    background-color: #EAEAEA;
+}
+
+
+.kana-display:hover, .selected{
+    color: red;
+    cursor: pointer;
     outline: none;
 }
